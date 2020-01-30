@@ -1,0 +1,111 @@
+ html,
+ body {
+     height: 100%;
+     /* background-image: linear-gradient(to bottom, #010, #010 50%, #eee 50%, #eee); */
+     /* background-image: linear-gradient(to bottom, #000051, #000051 50%, #eee 50%, #eee); */
+     background: url(./bg.svg) no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     font-family: 'Cairo', sans-serif;
+ }
+ 
+ .cover-container {
+     max-width: 42em;
+ }
+ 
+ .masthead {
+     margin-bottom: 2rem;
+ }
+ 
+ .masthead-brand {
+     margin-bottom: 0;
+     color: #eee;
+ }
+ 
+ .center-box {
+     border: 1px solid #fff;
+     background: #fff;
+     padding: 30px 30px 30px 30px;
+     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2);
+ }
+ 
+ .header-name {
+     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+ }
+ 
+ .cover-header {
+     margin-bottom: 1.5rem;
+     margin-top: 10px;
+ }
+ 
+ .cover-header .heading {
+     font-size: 1.5rem;
+     display: block;
+     margin-bottom: -5px;
+ }
+ 
+ .cover-header .sub-heading {
+     font-size: 1em;
+     display: block;
+ }
+ 
+ .cover-footer {
+     background-color: #000051;
+     width: 100%;
+ }
+ 
+ .cover-footer .footer-nav a {
+     color: #fff;
+ }
+ 
+ .cover-footer .footer-nav {
+     min-height: 5em;
+ }
+ 
+ .cover-footer .footer-nav .nav-link {
+     margin: auto 0;
+ }
+ 
+ .details-list {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+ 
+ .details-list li {
+     margin-bottom: 13px;
+ }
+ 
+ .details-list .title {
+     display: block;
+     width: 120px;
+     float: left;
+     color: #333333;
+     font-size: 12px;
+     font-weight: 700;
+     line-height: 20px;
+     text-transform: uppercase;
+ }
+ 
+ .details-list .cont {
+     display: block;
+     margin-left: 125px;
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 20px;
+     color: #9da0a7;
+ }
+ 
+ @media (min-width: 48em) {
+     .masthead-brand {
+         float: left;
+     }
+ }
+ 
+ @media (max-width: 767px) {
+     .cover-header {
+         text-align: center;
+     }
+ }
